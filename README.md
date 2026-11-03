@@ -207,7 +207,7 @@ See handwritten/Readme.md. These demonstrate that Stage 3 (extraction) is indepe
 | `mutations_n2.csv` | Mutation results, N=2 |
 | `timing_n1.csv`, `timing_n2.csv` | Timing for the 20-protocol mutation subset |
 
-log/ contains the full objcheck_*.log files (several hundred MB total); output/ contains the ObjCheck .txt output per protocol.
+log/ contains the full objcheck_*.log files (several hundred MB total, archived in a zip file); output/ contains the ObjCheck .txt output per protocol.
 
 ## Paper
 
