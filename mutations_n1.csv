@@ -1,0 +1,41 @@
+protocol,sessions,mutation,applied,rejected_intruder,rejected_completeness,rejected_any,checks_total,checks_failed,baseline_checks,reason
+Carlsen,1,deletion,1,0,1,1,10,0,13,only 10 of 13 checks ran
+Carlsen,1,duplication,1,1,0,1,12,1,13,1/12 checks failed
+WooLam,1,deletion,1,1,0,1,5,1,5,1/5 checks failed
+WooLam,1,duplication,1,0,1,1,4,0,5,only 4 of 5 checks ran
+AndrewSecureRPC,1,deletion,1,1,0,1,5,1,5,1/5 checks failed
+AndrewSecureRPC,1,duplication,1,0,1,1,4,0,5,only 4 of 5 checks ran
+Otway_Rees,1,deletion,1,0,1,1,10,0,15,only 10 of 15 checks ran
+Otway_Rees,1,duplication,1,1,0,1,15,1,15,1/15 checks failed
+NSPK,1,deletion,1,1,0,1,3,1,3,1/3 checks failed
+NSPK,1,duplication,1,0,0,0,3,0,3,all 3 checks passed
+DenningSacco,1,deletion,1,0,1,1,4,0,12,only 4 of 12 checks ran
+DenningSacco,1,duplication,1,0,1,1,6,0,12,only 6 of 12 checks ran
+Goss,1,deletion,1,0,1,1,2,0,4,only 2 of 4 checks ran
+Goss,1,duplication,1,1,0,1,4,1,4,1/4 checks failed
+KeyEx3,1,deletion,1,0,1,1,1,0,3,only 1 of 3 checks ran
+KeyEx3,1,duplication,1,0,0,0,3,0,3,all 3 checks passed
+BKE,1,deletion,1,1,0,1,4,1,4,1/4 checks failed
+BKE,1,duplication,1,0,1,1,3,0,4,only 3 of 4 checks ran
+DH,1,deletion,1,0,1,1,3,0,5,only 3 of 5 checks ran
+DH,1,duplication,1,0,1,1,3,0,5,only 3 of 5 checks ran
+Basic_Kerberos,1,deletion,1,0,1,1,10,0,15,only 10 of 15 checks ran
+Basic_Kerberos,1,duplication,1,0,0,0,15,0,15,all 15 checks passed
+Kerberos_PKINIT,1,deletion,1,0,1,1,21,0,25,only 21 of 25 checks ran
+Kerberos_PKINIT,1,duplication,1,0,0,0,25,0,25,all 25 checks passed
+SET_Orig,1,deletion,1,0,1,1,7,0,18,only 7 of 18 checks ran
+SET_Orig,1,duplication,1,0,1,1,6,0,18,only 6 of 18 checks ran
+SET_Rev,1,deletion,1,0,0,0,9,0,9,all 9 checks passed
+SET_Rev,1,duplication,1,0,0,0,9,0,9,all 9 checks passed
+Rev_1KP,1,deletion,1,0,0,0,19,0,19,all 19 checks passed
+Rev_1KP,1,duplication,1,1,0,1,19,4,19,4/19 checks failed
+Rev_3KP,1,deletion,1,0,0,0,8,0,8,all 8 checks passed
+Rev_3KP,1,duplication,1,0,0,0,8,0,8,all 8 checks passed
+WooLamMutual,1,deletion,1,0,1,1,10,0,11,only 10 of 11 checks ran
+WooLamMutual,1,duplication,1,1,0,1,11,1,11,1/11 checks failed
+KeyEx5,1,deletion,1,0,1,1,6,0,10,only 6 of 10 checks ran
+KeyEx5,1,duplication,1,1,0,1,10,1,10,1/10 checks failed
+ISO5pass,1,deletion,1,0,1,1,11,0,15,only 11 of 15 checks ran
+ISO5pass,1,duplication,1,1,0,1,14,1,15,1/14 checks failed
+H530,1,deletion,1,0,1,1,16,0,26,only 16 of 26 checks ran
+H530,1,duplication,1,1,0,1,22,2,26,2/22 checks failed

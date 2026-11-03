@@ -1,0 +1,18 @@
+protocol=Carlsen
+pcap=\genAnBx\src\carlsen\Carlsen_swap.pcap
+generated_by=sessionbuild.py (step 2)
+generated_at=2026-10-03T22:29:10.595741+00:00
+n_sessions=1
+selected_candidate=0
+
+session=1
+confidence=high
+reason=single-component
+n_candidates=1
+t_start=1791058568.144147
+t_end=1791058569.071625
+n_channels=4
+channel=ROLE_B_channel_ROLE_A_Server_Insecure,C1,ab,Carlsen_STREAM_5_1.ser
+channel=ROLE_A_channel_ROLE_B_Client_Insecure,C1,ba,Carlsen_STREAM_5_2.ser
+channel=ROLE_s_channel_ROLE_B_Server_Insecure,C2,ab,Carlsen_STREAM_4_1.ser
+channel=ROLE_B_channel_ROLE_s_Client_Insecure,C2,ba,Carlsen_STREAM_4_2.ser

@@ -1,0 +1,31 @@
+ROLE_intr = alice,bob,charlie,david
+# A -> intr - 192.168.0.34 -> 192.168.0.34:55555
+ROLE_intr_channel_ROLE_A_Server_Insecure_role = Server
+ROLE_intr_channel_ROLE_A_Server_Insecure_host = 0.0.0.0
+ROLE_intr_channel_ROLE_A_Server_Insecure_port = 0
+ROLE_intr_channel_ROLE_A_Server_Insecure_type = SSL_PLAIN
+# intr -> A - 192.168.0.34:55555 -> 192.168.0.34
+ROLE_A_channel_ROLE_intr_Client_Insecure_role = Client
+ROLE_A_channel_ROLE_intr_Client_Insecure_host = 192.168.0.34
+ROLE_A_channel_ROLE_intr_Client_Insecure_port = 0
+ROLE_A_channel_ROLE_intr_Client_Insecure_type = SSL_PLAIN
+# intr -> B - 192.168.0.34 -> 192.168.0.34:55556
+ROLE_B_channel_ROLE_intr_Server_Insecure_role = Server
+ROLE_B_channel_ROLE_intr_Server_Insecure_host = 0.0.0.0
+ROLE_B_channel_ROLE_intr_Server_Insecure_port = 0
+ROLE_B_channel_ROLE_intr_Server_Insecure_type = SSL_PLAIN
+# B -> intr - 192.168.0.34:55556 -> 192.168.0.34
+ROLE_intr_channel_ROLE_B_Client_Insecure_role = Client
+ROLE_intr_channel_ROLE_B_Client_Insecure_host = 192.168.0.34
+ROLE_intr_channel_ROLE_B_Client_Insecure_port = 0
+ROLE_intr_channel_ROLE_B_Client_Insecure_type = SSL_PLAIN
+# intr -> s - 192.168.0.34 -> 192.168.0.34:55558
+ROLE_s_channel_ROLE_intr_Server_Insecure_role = Server
+ROLE_s_channel_ROLE_intr_Server_Insecure_host = 0.0.0.0
+ROLE_s_channel_ROLE_intr_Server_Insecure_port = 0
+ROLE_s_channel_ROLE_intr_Server_Insecure_type = SSL_PLAIN
+# s -> intr - 192.168.0.34:55558 -> 192.168.0.34
+ROLE_intr_channel_ROLE_s_Client_Insecure_role = Client
+ROLE_intr_channel_ROLE_s_Client_Insecure_host = 192.168.0.34
+ROLE_intr_channel_ROLE_s_Client_Insecure_port = 0
+ROLE_intr_channel_ROLE_s_Client_Insecure_type = SSL_PLAIN

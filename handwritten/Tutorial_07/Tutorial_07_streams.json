@@ -1,0 +1,30 @@
+{
+  "protocol": "Tutorial_07",
+  "pcap": "\\src\\Tutorial_07.pcap",
+  "generated_by": "outparse.py (step 1)",
+  "generated_at": "2026-10-02T22:14:20.926084+00:00",
+  "streams": [
+    {
+      "file": "Tutorial_07_STREAM_1_1.ser",
+      "tcp_stream": 0,
+      "src_ip": "127.0.0.1",
+      "src_port": 6671,
+      "dst_ip": "127.0.0.1",
+      "dst_port": 39961,
+      "t_first": 1790979167.219263,
+      "t_last": 1790979167.405998,
+      "magic_count": 1
+    },
+    {
+      "file": "Tutorial_07_STREAM_1_2.ser",
+      "tcp_stream": 0,
+      "src_ip": "127.0.0.1",
+      "src_port": 39961,
+      "dst_ip": "127.0.0.1",
+      "dst_port": 6671,
+      "t_first": 1790979167.221545,
+      "t_last": 1790979167.395861,
+      "magic_count": 1
+    }
+  ]
+}

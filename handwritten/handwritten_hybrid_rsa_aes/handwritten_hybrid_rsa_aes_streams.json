@@ -1,0 +1,52 @@
+{
+  "protocol": "handwritten_hybrid_rsa_aes",
+  "pcap": "\\handwritten_hybrid_rsa_aes\\handwritten_hybrid_rsa_aes.pcap",
+  "generated_by": "outparse.py (step 1)",
+  "generated_at": "2026-10-08T23:46:14.194892+00:00",
+  "streams": [
+    {
+      "file": "handwritten_hybrid_rsa_aes_STREAM_1_1.ser",
+      "tcp_stream": 0,
+      "src_ip": "127.0.0.1",
+      "src_port": 2492,
+      "dst_ip": "127.0.0.1",
+      "dst_port": 2491,
+      "t_first": 1791502468.328714,
+      "t_last": 1791502482.337821,
+      "magic_count": 0
+    },
+    {
+      "file": "handwritten_hybrid_rsa_aes_STREAM_2_1.ser",
+      "tcp_stream": 1,
+      "src_ip": "127.0.0.1",
+      "src_port": 2490,
+      "dst_ip": "127.0.0.1",
+      "dst_port": 2489,
+      "t_first": 1791502470.140599,
+      "t_last": 1791502473.173872,
+      "magic_count": 0
+    },
+    {
+      "file": "handwritten_hybrid_rsa_aes_STREAM_3_1.ser",
+      "tcp_stream": 2,
+      "src_ip": "127.0.0.1",
+      "src_port": 6669,
+      "dst_ip": "127.0.0.1",
+      "dst_port": 24011,
+      "t_first": 1791502479.306343,
+      "t_last": 1791502479.475382,
+      "magic_count": 1
+    },
+    {
+      "file": "handwritten_hybrid_rsa_aes_STREAM_3_2.ser",
+      "tcp_stream": 2,
+      "src_ip": "127.0.0.1",
+      "src_port": 24011,
+      "dst_ip": "127.0.0.1",
+      "dst_port": 6669,
+      "t_first": 1791502479.428687,
+      "t_last": 1791502479.430053,
+      "magic_count": 1
+    }
+  ]
+}

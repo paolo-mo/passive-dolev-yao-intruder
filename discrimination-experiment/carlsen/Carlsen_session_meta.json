@@ -1,0 +1,113 @@
+{
+  "protocol": "Carlsen",
+  "pcap": "\\genAnBx\\src\\carlsen\\Carlsen_swap.pcap",
+  "generated_by": "sessionbuild.py (step 2)",
+  "generated_at": "2026-10-03T22:29:10.595741+00:00",
+  "streams": [
+    {
+      "file": "Carlsen_STREAM_5_1.ser",
+      "tcp_stream": 4,
+      "src_ip": "10.0.1.2",
+      "src_port": 54306,
+      "dst_ip": "10.0.2.2",
+      "dst_port": 55555,
+      "t_first": 1791058568.746899,
+      "t_last": 1791058569.071625,
+      "magic_count": 1
+    },
+    {
+      "file": "Carlsen_STREAM_5_2.ser",
+      "tcp_stream": 4,
+      "src_ip": "10.0.2.2",
+      "src_port": 55555,
+      "dst_ip": "10.0.1.2",
+      "dst_port": 54306,
+      "t_first": 1791058568.749383,
+      "t_last": 1791058569.021395,
+      "magic_count": 1
+    },
+    {
+      "file": "Carlsen_STREAM_4_1.ser",
+      "tcp_stream": 3,
+      "src_ip": "10.0.2.2",
+      "src_port": 57276,
+      "dst_ip": "10.0.3.2",
+      "dst_port": 55556,
+      "t_first": 1791058568.144147,
+      "t_last": 1791058568.881463,
+      "magic_count": 1
+    },
+    {
+      "file": "Carlsen_STREAM_4_2.ser",
+      "tcp_stream": 3,
+      "src_ip": "10.0.3.2",
+      "src_port": 55556,
+      "dst_ip": "10.0.2.2",
+      "dst_port": 57276,
+      "t_first": 1791058568.14571,
+      "t_last": 1791058568.943509,
+      "magic_count": 1
+    }
+  ],
+  "connections": [
+    {
+      "conn_id": "C1",
+      "stream_ab": "Carlsen_STREAM_5_1.ser",
+      "stream_ba": "Carlsen_STREAM_5_2.ser",
+      "ip_a": "10.0.1.2",
+      "port_a": 54306,
+      "ip_b": "10.0.2.2",
+      "port_b": 55555,
+      "t_start": 1791058568.746899,
+      "t_end": 1791058569.071625
+    },
+    {
+      "conn_id": "C2",
+      "stream_ab": "Carlsen_STREAM_4_1.ser",
+      "stream_ba": "Carlsen_STREAM_4_2.ser",
+      "ip_a": "10.0.2.2",
+      "port_a": 57276,
+      "ip_b": "10.0.3.2",
+      "port_b": 55556,
+      "t_start": 1791058568.144147,
+      "t_end": 1791058568.943509
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": 1,
+      "confidence": "high",
+      "confidence_reason": "single-component",
+      "n_candidates": 1,
+      "candidates": [
+        {
+          "candidate_id": 0,
+          "connections": [
+            "C1",
+            "C2"
+          ],
+          "channel_map": {
+            "ROLE_B_channel_ROLE_A_Server_Insecure": {
+              "conn": "C1",
+              "dir": "ab"
+            },
+            "ROLE_A_channel_ROLE_B_Client_Insecure": {
+              "conn": "C1",
+              "dir": "ba"
+            },
+            "ROLE_s_channel_ROLE_B_Server_Insecure": {
+              "conn": "C2",
+              "dir": "ab"
+            },
+            "ROLE_B_channel_ROLE_s_Client_Insecure": {
+              "conn": "C2",
+              "dir": "ba"
+            }
+          },
+          "t_start": 1791058568.144147,
+          "t_end": 1791058569.071625
+        }
+      ]
+    }
+  ]
+}

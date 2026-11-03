@@ -1,0 +1,52 @@
+{
+  "protocol": "Carlsen",
+  "pcap": "\\genAnBx\\src\\carlsen\\Carlsen_swap.pcap",
+  "generated_by": "outparse.py (step 1)",
+  "generated_at": "2026-10-03T22:29:10.411545+00:00",
+  "streams": [
+    {
+      "file": "Carlsen_STREAM_5_1.ser",
+      "tcp_stream": 4,
+      "src_ip": "10.0.1.2",
+      "src_port": 54306,
+      "dst_ip": "10.0.2.2",
+      "dst_port": 55555,
+      "t_first": 1791058568.746899,
+      "t_last": 1791058569.071625,
+      "magic_count": 1
+    },
+    {
+      "file": "Carlsen_STREAM_5_2.ser",
+      "tcp_stream": 4,
+      "src_ip": "10.0.2.2",
+      "src_port": 55555,
+      "dst_ip": "10.0.1.2",
+      "dst_port": 54306,
+      "t_first": 1791058568.749383,
+      "t_last": 1791058569.021395,
+      "magic_count": 1
+    },
+    {
+      "file": "Carlsen_STREAM_4_1.ser",
+      "tcp_stream": 3,
+      "src_ip": "10.0.2.2",
+      "src_port": 57276,
+      "dst_ip": "10.0.3.2",
+      "dst_port": 55556,
+      "t_first": 1791058568.144147,
+      "t_last": 1791058568.881463,
+      "magic_count": 1
+    },
+    {
+      "file": "Carlsen_STREAM_4_2.ser",
+      "tcp_stream": 3,
+      "src_ip": "10.0.3.2",
+      "src_port": 55556,
+      "dst_ip": "10.0.2.2",
+      "dst_port": 57276,
+      "t_first": 1791058568.14571,
+      "t_last": 1791058568.943509,
+      "magic_count": 1
+    }
+  ]
+}
