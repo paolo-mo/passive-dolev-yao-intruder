@@ -43,7 +43,7 @@ jpcap2ser/
 │
 └── discrimination-experiment/
     └── carlsen/                    # Carlsen ref/swap captures, properties, STEP files, work logs
-
+```
 ## The reconstruction pipeline
 
 The pipeline follows the five stages described in the paper (Section 3):
