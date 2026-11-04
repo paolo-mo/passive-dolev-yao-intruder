@@ -9,7 +9,7 @@ The pipeline takes a PCAP capture produced under a passive man-in-the-middle con
 ## Repository layout
 
 ```text
-jpcap2ser/
+/
 ├── run_test.py                     # Orchestrates the full 5-stage reconstruction pipeline
 ├── jpcap2ser.py                    # Stage 3: PCAP → TCP streams (TShark wrapper)
 ├── outparse.py                     # Stage 3: parses TShark output, writes STREAM files + metadata
