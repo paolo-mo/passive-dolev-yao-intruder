@@ -213,6 +213,7 @@ log/ contains the full objcheck_*.log files (several hundred MB total, archived 
 
 **Global Surveillance Under the Lens: Reconstructing Passive Dolev–Yao Intruders**  
 **Author:** Paolo Modesti
+
 https://arxiv.org/abs/2611.07170
     
 The paper describes the methodology, formal definitions, experimental setup, and full evaluation.
